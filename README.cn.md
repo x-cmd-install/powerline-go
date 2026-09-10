@@ -4,7 +4,7 @@
 
  A beautiful and useful low-latency prompt for your shell, written in go
 
-![powerline-go](https://repo.x-cmd.io/powerline-go.svg)
+![powerline-go](https://repo.x-cmd.io/powerline-go.svg?lang=zh)
 
 ## 安装
 
@@ -22,7 +22,33 @@ x install powerline-go
 - **最新版本**: `v1.26` (2026-01-14)
 - **最近提交**: 2026-08-11
 - **Release 含资产**: 22 个
-- **发布时间**: 2026-01-14T14:30:40Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [checksums.txt](https://github.com/justjanne/powerline-go/releases/download/v1.26/checksums.txt) | 1.9 KiB | `other` |
+| [powerline-go-darwin-amd64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-darwin-amd64) | 2.8 MiB | `native/darwin/x64` |
+| [powerline-go-darwin-arm64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-darwin-arm64) | 2.8 MiB | `native/darwin/arm64` |
+| [powerline-go-freebsd-386](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-freebsd-386) | 2.5 MiB | `other` |
+| [powerline-go-freebsd-amd64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-freebsd-amd64) | 2.6 MiB | `other` |
+| [powerline-go-freebsd-arm](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-freebsd-arm) | 2.6 MiB | `other` |
+| [powerline-go-freebsd-arm64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-freebsd-arm64) | 2.7 MiB | `other` |
+| [powerline-go-linux-386](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-linux-386) | 2.6 MiB | `other` |
+| [powerline-go-linux-amd64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-linux-amd64) | 2.7 MiB | `native/linux/x64` |
+| [powerline-go-linux-arm](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-linux-arm) | 2.7 MiB | `native/linux/arm` |
+| [powerline-go-linux-arm64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-linux-arm64) | 2.7 MiB | `native/linux/arm64` |
+| [powerline-go-netbsd-386](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-netbsd-386) | 2.4 MiB | `other` |
+| [powerline-go-netbsd-amd64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-netbsd-amd64) | 2.5 MiB | `other` |
+| [powerline-go-netbsd-arm](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-netbsd-arm) | 2.6 MiB | `other` |
+| [powerline-go-netbsd-arm64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-netbsd-arm64) | 2.6 MiB | `other` |
+| [powerline-go-openbsd-386](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-openbsd-386) | 2.5 MiB | `other` |
+| [powerline-go-openbsd-amd64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-openbsd-amd64) | 2.7 MiB | `other` |
+| [powerline-go-openbsd-arm64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-openbsd-arm64) | 2.7 MiB | `other` |
+| [powerline-go-windows-386.exe](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-386.exe) | 2.8 MiB | `native/win/x64` |
+| [powerline-go-windows-amd64.exe](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-amd64.exe) | 2.9 MiB | `native/win/x64` |
+| [powerline-go-windows-arm.exe](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-arm.exe) | 2.8 MiB | `native/win/x64` |
+| [powerline-go-windows-arm64.exe](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-arm64.exe) | 2.8 MiB | `native/win/arm64` |
 
 ## 流行度
 
@@ -70,4 +96,4 @@ powerline-go 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/inst
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:58:08Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:37:14Z._

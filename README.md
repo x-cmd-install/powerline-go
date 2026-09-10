@@ -22,7 +22,33 @@ x install powerline-go
 - **Latest**: `v1.26` (2026-01-14)
 - **Last commit**: 2026-08-11
 - **Assets in release**: 22
-- **Published**: 2026-01-14T14:30:40Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [checksums.txt](https://github.com/justjanne/powerline-go/releases/download/v1.26/checksums.txt) | 1.9 KiB | `other` |
+| [powerline-go-darwin-amd64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-darwin-amd64) | 2.8 MiB | `native/darwin/x64` |
+| [powerline-go-darwin-arm64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-darwin-arm64) | 2.8 MiB | `native/darwin/arm64` |
+| [powerline-go-freebsd-386](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-freebsd-386) | 2.5 MiB | `other` |
+| [powerline-go-freebsd-amd64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-freebsd-amd64) | 2.6 MiB | `other` |
+| [powerline-go-freebsd-arm](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-freebsd-arm) | 2.6 MiB | `other` |
+| [powerline-go-freebsd-arm64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-freebsd-arm64) | 2.7 MiB | `other` |
+| [powerline-go-linux-386](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-linux-386) | 2.6 MiB | `other` |
+| [powerline-go-linux-amd64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-linux-amd64) | 2.7 MiB | `native/linux/x64` |
+| [powerline-go-linux-arm](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-linux-arm) | 2.7 MiB | `native/linux/arm` |
+| [powerline-go-linux-arm64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-linux-arm64) | 2.7 MiB | `native/linux/arm64` |
+| [powerline-go-netbsd-386](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-netbsd-386) | 2.4 MiB | `other` |
+| [powerline-go-netbsd-amd64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-netbsd-amd64) | 2.5 MiB | `other` |
+| [powerline-go-netbsd-arm](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-netbsd-arm) | 2.6 MiB | `other` |
+| [powerline-go-netbsd-arm64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-netbsd-arm64) | 2.6 MiB | `other` |
+| [powerline-go-openbsd-386](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-openbsd-386) | 2.5 MiB | `other` |
+| [powerline-go-openbsd-amd64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-openbsd-amd64) | 2.7 MiB | `other` |
+| [powerline-go-openbsd-arm64](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-openbsd-arm64) | 2.7 MiB | `other` |
+| [powerline-go-windows-386.exe](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-386.exe) | 2.8 MiB | `native/win/x64` |
+| [powerline-go-windows-amd64.exe](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-amd64.exe) | 2.9 MiB | `native/win/x64` |
+| [powerline-go-windows-arm.exe](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-arm.exe) | 2.8 MiB | `native/win/x64` |
+| [powerline-go-windows-arm64.exe](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-arm64.exe) | 2.8 MiB | `native/win/arm64` |
 
 ## Popularity
 
@@ -66,8 +92,8 @@ Lowest-scoring checks:
 Install metadata for powerline-go lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `powerline-go` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/powerline-go.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/powerline-go.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:58:07Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:37:13Z._

@@ -12,6 +12,27 @@
 x install powerline-go
 ```
 
+## Code insight
+
+Total: **5,817** lines of code across **68** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Go | 5,444 | 91 | 607 | 64 |
+| Json | 343 | 0 | 0 | 1 |
+| Sh | 30 | 1 | 10 | 1 |
+| Markdown | 0 | 770 | 170 | 2 |
+
+## OpenSSF Scorecard
+
+Overall score: **3.9 / 10**
+
+Lowest-scoring checks:
+
+- **Maintained** (4/10) — 3 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 4
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+
 ## Source
 
 - **Upstream**: <https://github.com/justjanne/powerline-go>
@@ -22,6 +43,25 @@ x install powerline-go
 - **Latest**: `v1.26` (2026-01-14)
 - **Last commit**: 2026-08-11
 - **Assets in release**: 22
+
+## Popularity
+
+- **Stars**: 2,892 · **Forks**: 284 · **Open issues**: 208 · **Contributors**: 86
+
+## Totals (cumulative)
+
+- **Releases**: 42 · **Merged PRs**: 152 · **Open PRs**: 25 · **Closed issues**: 147 · **Open issues**: 61 · **Commits**: 473
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 1 | 1 | 0 | 3 |
+| 90d | 2026-06-12 | 0 | 0 | 2 | 2 | 0 | 3 |
+| last180d | 2026-03-14 | 0 | 0 | 3 | 3 | 0 | 3 |
+| 360d | 2025-09-15 | 1 | 1 | 10 | 3 | 2 | 4 |
+| last720d | 2024-09-20 | 2 | 7 | 14 | 6 | 5 | 22 |
 
 ## Release assets
 
@@ -50,42 +90,21 @@ x install powerline-go
 | [powerline-go-windows-arm.exe](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-arm.exe) | 2.8 MiB | `native/win/x64` |
 | [powerline-go-windows-arm64.exe](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-arm64.exe) | 2.8 MiB | `native/win/arm64` |
 
-## Popularity
+## Distribution status
 
-- **Stars**: 2,892 · **Forks**: 284 · **Open issues**: 208 · **Contributors**: 86
+Reported by **94** distros on [repology.org](https://repology.org/project/powerline-go). **67** are ✅ on the latest upstream release, **22** are ⚠️ on an older version.
 
-## Totals (cumulative)
-
-- **Releases**: 42 · **Merged PRs**: 152 · **Open PRs**: 25 · **Closed issues**: 147 · **Open issues**: 61 · **Commits**: 473
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 2 | 2 | 0 | 3 |
-| 360d | 2025-09-15 | 1 | 1 | 10 | 3 | 2 | 4 |
-
-## Code size
-
-Total: **5,817** lines of code across **68** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Go | 5,444 | 91 | 607 | 64 |
-| Json | 343 | 0 | 0 | 1 |
-| Sh | 30 | 1 | 10 | 1 |
-| Markdown | 0 | 770 | 170 | 2 |
-
-## OpenSSF Scorecard
-
-Overall score: **3.9 / 10**
-
-Lowest-scoring checks:
-
-- **Maintained** (4/10) — 3 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 4
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2.8.4` | ✅ latest |
+| Debian 14 | `2.8.4` | ✅ latest |
+| Debian 13 | `2.8.4` | ✅ latest |
+| Ubuntu 26.04 LTS | `2.8.4` | ✅ latest |
+| Ubuntu 24.04 LTS | `2.8.3` | ⚠️ outdated |
+| Arch | `2.8.4` | ✅ latest |
+| Fedora rawhide | `2.8.4` | ✅ latest |
+| Nix unstable | `2.8.4` | ✅ latest |
+| openSUSE Tumbleweed | `2.8.4` | ✅ latest |
 
 ## Improve this data
 
@@ -96,4 +115,4 @@ Install metadata for powerline-go lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:37:13Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:36:24Z._

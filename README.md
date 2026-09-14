@@ -50,18 +50,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 152 · **Open PRs**: 25 · **Closed issues**: 147 · **Open issues**: 61 · **Commits**: 473
+- **Releases**: 42 · **Merged PRs**: 152 · **Open PRs**: 26 · **Closed issues**: 147 · **Open issues**: 61 · **Commits**: 473
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 1 | 1 | 0 | 3 |
-| 90d | 2026-06-15 | 0 | 0 | 2 | 2 | 0 | 3 |
-| last180d | 2026-03-17 | 0 | 0 | 3 | 3 | 0 | 3 |
-| 360d | 2025-09-18 | 1 | 1 | 10 | 3 | 2 | 4 |
-| last720d | 2024-09-23 | 2 | 7 | 14 | 6 | 5 | 22 |
+| 30d | 2026-08-15 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 2 | 1 | 0 | 3 |
+| 90d | 2026-06-16 | 0 | 0 | 3 | 2 | 0 | 3 |
+| last180d | 2026-03-18 | 0 | 0 | 3 | 3 | 0 | 3 |
+| 360d | 2025-09-19 | 1 | 1 | 11 | 3 | 2 | 4 |
+| last720d | 2024-09-24 | 2 | 7 | 15 | 6 | 5 | 22 |
 
 ## Release assets
 
@@ -90,22 +90,6 @@ Lowest-scoring checks:
 | [powerline-go-windows-arm.exe](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-arm.exe) | 2.8 MiB | `native/win/x64` |
 | [powerline-go-windows-arm64.exe](https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-arm64.exe) | 2.8 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **94** distros on [repology.org](https://repology.org/project/powerline-go). **67** are ✅ on the latest upstream release, **22** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.8.4` | ✅ latest |
-| Debian 14 | `2.8.4` | ✅ latest |
-| Debian 13 | `2.8.4` | ✅ latest |
-| Ubuntu 26.04 LTS | `2.8.4` | ✅ latest |
-| Ubuntu 24.04 LTS | `2.8.3` | ⚠️ outdated |
-| Arch | `2.8.4` | ✅ latest |
-| Fedora rawhide | `2.8.4` | ✅ latest |
-| Nix unstable | `2.8.4` | ✅ latest |
-| openSUSE Tumbleweed | `2.8.4` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for powerline-go lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `powerline-go` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -115,4 +99,4 @@ Install metadata for powerline-go lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:00:30Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:15:25Z._

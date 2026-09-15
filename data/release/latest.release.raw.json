@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2944274,
       "digest": "sha256:b6acf6c7723e858b7b718dbcc7e998313534a07f1e4a29348a0b2379552abd33",
-      "download_count": 183,
+      "download_count": 185,
       "created_at": "2026-01-14T14:32:38Z",
       "updated_at": "2026-01-14T14:32:39Z",
       "browser_download_url": "https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-darwin-arm64"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 2789376,
       "digest": "sha256:457bc954e7f8d42e8422c3de566db08ad061d447ff1d7fa2026d5e3c5243797e",
-      "download_count": 2163,
+      "download_count": 2191,
       "created_at": "2026-01-14T14:32:41Z",
       "updated_at": "2026-01-14T14:32:42Z",
       "browser_download_url": "https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-linux-amd64"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 2818048,
       "digest": "sha256:f51cd51f566e35bab7609724e83a7db1bdbc09a6fe057919ac75214c1313c3aa",
-      "download_count": 159,
+      "download_count": 163,
       "created_at": "2026-01-14T14:32:40Z",
       "updated_at": "2026-01-14T14:32:41Z",
       "browser_download_url": "https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-linux-arm64"

@@ -4,7 +4,7 @@
 
  A beautiful and useful low-latency prompt for your shell, written in go
 
-![powerline-go](https://repo.x-cmd.io/powerline-go.svg)
+[![x-cmd/install — powerline-go Code Quality Monitoring Repo Card](https://repo.x-cmd.io/powerline-go.svg)](https://x-cmd.com/install/powerline-go)
 
 ## Install
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-07-20 | 0 | 0 | 2 | 1 | 0 | 3 |
-| 90d | 2026-06-20 | 0 | 0 | 3 | 2 | 0 | 3 |
-| last180d | 2026-03-22 | 0 | 0 | 3 | 3 | 0 | 3 |
-| 360d | 2025-09-23 | 1 | 1 | 11 | 3 | 2 | 4 |
-| last720d | 2024-09-28 | 2 | 7 | 15 | 6 | 5 | 22 |
+| 30d | 2026-08-21 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 0 | 0 | 2 | 1 | 0 | 3 |
+| 90d | 2026-06-22 | 0 | 0 | 3 | 2 | 0 | 3 |
+| last180d | 2026-03-24 | 0 | 0 | 3 | 3 | 0 | 3 |
+| 360d | 2025-09-25 | 1 | 1 | 11 | 3 | 2 | 4 |
+| last720d | 2024-09-30 | 2 | 7 | 15 | 6 | 5 | 22 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for powerline-go lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:02:15Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:13:05Z._

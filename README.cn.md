@@ -4,7 +4,7 @@
 
  A beautiful and useful low-latency prompt for your shell, written in go
 
-[![x-cmd/install — powerline-go Code Quality Monitoring Repo Card](https://repo.x-cmd.io/powerline-go.svg?lang=zh)](https://x-cmd.com/install/powerline-go)
+[![x-cmd/install — powerline-go Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/powerline-go.svg?lang=zh)](https://x-cmd.com/install/powerline-go)
 
 ## 安装
 
@@ -29,8 +29,8 @@ x install powerline-go
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Maintained** (4/10) — 3 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 4
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## 源代码
@@ -56,12 +56,12 @@ x install powerline-go
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-07-24 | 0 | 0 | 2 | 1 | 0 | 3 |
-| 90d | 2026-06-24 | 0 | 0 | 3 | 2 | 0 | 3 |
-| last180d | 2026-03-26 | 0 | 0 | 3 | 3 | 0 | 3 |
-| 360d | 2025-09-27 | 1 | 1 | 11 | 3 | 2 | 4 |
-| last720d | 2024-10-02 | 2 | 7 | 15 | 6 | 5 | 22 |
+| 30d | 2026-08-24 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-07-25 | 0 | 0 | 2 | 1 | 0 | 3 |
+| 90d | 2026-06-25 | 0 | 0 | 3 | 2 | 0 | 3 |
+| last180d | 2026-03-27 | 0 | 0 | 3 | 3 | 0 | 3 |
+| 360d | 2025-09-28 | 1 | 1 | 11 | 3 | 2 | 4 |
+| last720d | 2024-10-03 | 2 | 7 | 15 | 6 | 5 | 22 |
 
 ## Release 资产
 
@@ -99,4 +99,4 @@ powerline-go 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/inst
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:11:00Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:09:39Z._

@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,890 · **Forks**: 283 · **Open issues**: 208 · **Contributors**: 86
+- **Stars**: 2,890 · **Forks**: 285 · **Open issues**: 208 · **Contributors**: 86
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 152 · **Open PRs**: 26 · **Closed issues**: 147 · **Open issues**: 61 · **Commits**: 473
+- **Releases**: 42 · **Merged PRs**: 152 · **Open PRs**: 27 · **Closed issues**: 147 · **Open issues**: 61 · **Commits**: 473
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-15 | 0 | 0 | 2 | 0 | 0 | 0 |
-| 90d | 2026-07-16 | 0 | 0 | 2 | 1 | 0 | 3 |
-| last180d | 2026-04-17 | 0 | 0 | 3 | 3 | 0 | 3 |
-| 360d | 2025-10-19 | 1 | 1 | 11 | 3 | 2 | 4 |
-| last720d | 2024-10-24 | 2 | 7 | 15 | 6 | 5 | 22 |
+| 30d | 2026-09-15 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-08-16 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-07-17 | 0 | 0 | 3 | 1 | 0 | 3 |
+| last180d | 2026-04-18 | 0 | 0 | 4 | 3 | 0 | 3 |
+| 360d | 2025-10-20 | 1 | 1 | 12 | 3 | 2 | 4 |
+| last720d | 2024-10-25 | 2 | 7 | 16 | 5 | 5 | 22 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for powerline-go lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T05:09:15Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T04:49:41Z._

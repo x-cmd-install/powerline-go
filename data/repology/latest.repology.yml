@@ -1,15 +1,4 @@
-- repo: parabola
-  subrepo: extra
-  srcname: powerline
-  binname: powerline-fonts
-  visiblename: powerline-fonts
-  version: 2.8.4
-  origversion: 2.8.4-4
-  status: newest
-  summary: Patched fonts for powerline
-  licenses:
-    - MIT
-- repo: parabola
+- repo: arch
   subrepo: extra
   srcname: powerline
   binname: vim-powerline
@@ -20,18 +9,7 @@
   summary: Vim plugin for powerline
   licenses:
     - MIT
-- repo: nix_stable_25_11
-  srcname: powerline
-  visiblename: powerline
-  version: 2.8.4
-  origversion: null
-  status: newest
-  summary: Ultimate statusline/prompt utility
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
-- repo: manjaro_stable
+- repo: arch
   subrepo: extra
   srcname: powerline
   binname: powerline
@@ -40,6 +18,28 @@
   origversion: 2.8.4-4
   status: newest
   summary: Statuslines and prompts for several applications including vim, zsh, bash, tmux, IPython, Awesome, i3 and Qtile
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: extra
+  srcname: powerline
+  binname: powerline-fonts
+  visiblename: powerline-fonts
+  version: 2.8.4
+  origversion: 2.8.4-4
+  status: newest
+  summary: Patched fonts for powerline
+  licenses:
+    - MIT
+- repo: artix
+  subrepo: world
+  srcname: powerline
+  binname: python-powerline
+  visiblename: python-powerline
+  version: 2.8.4
+  origversion: 2.8.4-1
+  status: newest
+  summary: python library for powerline
   licenses:
     - MIT
 - repo: artix
@@ -51,149 +51,6 @@
   origversion: 2.8.4-4.1
   status: newest
   summary: Patched fonts for powerline
-  licenses:
-    - MIT
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: powerline
-  binname: powerline-fonts
-  visiblename: powerline-fonts
-  version: 2.8.4
-  origversion: 2.8.4-4
-  status: newest
-  summary: Patched fonts for powerline
-  licenses:
-    - MIT
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: powerline
-  binname: vim-powerline
-  visiblename: vim-powerline
-  version: 2.8.4
-  origversion: 2.8.4-4
-  status: newest
-  summary: Vim plugin for powerline
-  licenses:
-    - MIT
-- repo: artix
-  subrepo: world
-  srcname: powerline
-  binname: vim-powerline
-  visiblename: vim-powerline
-  version: 2.8.4
-  origversion: 2.8.4-4.1
-  status: newest
-  summary: Vim plugin for powerline
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: powerline
-  binname: vim-powerline
-  visiblename: vim-powerline
-  version: 2.8.4
-  origversion: 2.8.4-4
-  status: newest
-  summary: Vim plugin for powerline
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: powerline
-  binname: powerline
-  visiblename: powerline
-  version: 2.8.4
-  origversion: 2.8.4-4
-  status: newest
-  summary: Statuslines and prompts for several applications including vim, zsh, bash, tmux, IPython, Awesome, i3 and Qtile
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: powerline
-  binname: powerline-fonts
-  visiblename: powerline-fonts
-  version: 2.8.4
-  origversion: 2.8.4-4
-  status: newest
-  summary: Patched fonts for powerline
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: powerline
-  binname: vim-powerline
-  visiblename: vim-powerline
-  version: 2.8.4
-  origversion: 2.8.4-4
-  status: newest
-  summary: Vim plugin for powerline
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: powerline
-  visiblename: powerline
-  version: 2.8.4
-  origversion: null
-  status: newest
-  summary: Ultimate statusline/prompt utility
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: powerline
-  binname: powerline
-  visiblename: powerline
-  version: 2.8.4
-  origversion: 2.8.4-4
-  status: newest
-  summary: Statuslines and prompts for several applications including vim, zsh, bash, tmux, IPython, Awesome, i3 and Qtile
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: powerline
-  binname: powerline-fonts
-  visiblename: powerline-fonts
-  version: 2.8.4
-  origversion: 2.8.4-4
-  status: newest
-  summary: Patched fonts for powerline
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: powerline
-  binname: powerline-fonts
-  visiblename: powerline-fonts
-  version: 2.8.4
-  origversion: 2.8.4-4
-  status: newest
-  summary: Patched fonts for powerline
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: powerline
-  binname: powerline
-  visiblename: powerline
-  version: 2.8.4
-  origversion: 2.8.4-4
-  status: newest
-  summary: Statuslines and prompts for several applications including vim, zsh, bash, tmux, IPython, Awesome, i3 and Qtile
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: powerline
-  binname: vim-powerline
-  visiblename: vim-powerline
-  version: 2.8.4
-  origversion: 2.8.4-4
-  status: newest
-  summary: Vim plugin for powerline
   licenses:
     - MIT
 - repo: artix
@@ -221,23 +78,23 @@
 - repo: artix
   subrepo: world
   srcname: powerline
+  binname: vim-powerline
+  visiblename: vim-powerline
+  version: 2.8.4
+  origversion: 2.8.4-4.1
+  status: newest
+  summary: Vim plugin for powerline
+  licenses:
+    - MIT
+- repo: artix
+  subrepo: world
+  srcname: powerline
   binname: powerline
   visiblename: powerline
   version: 2.8.4
   origversion: 2.8.4-4.1
   status: newest
   summary: Statuslines and prompts for several applications including vim, zsh, bash, tmux, IPython, Awesome, i3 and Qtile
-  licenses:
-    - MIT
-- repo: artix
-  subrepo: world
-  srcname: powerline
-  binname: python-powerline
-  visiblename: python-powerline
-  version: 2.8.4
-  origversion: 2.8.4-1
-  status: newest
-  summary: python library for powerline
   licenses:
     - MIT
 - repo: debian_11
@@ -330,22 +187,6 @@
     - samueloph@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: powerline
-  binnames:
-    - fonts-powerline
-    - powerline
-    - powerline-doc
-    - python-powerline
-    - python-powerline-doc
-    - python3-powerline
-  visiblename: powerline
-  version: "2.7"
-  origversion: 2.7-2
-  status: outdated
-  maintainers:
-    - jerome@riseup.net
 - repo: deepin_25
   subrepo: community
   srcname: powerline
@@ -445,24 +286,24 @@
     - MIT
   categories:
     - Unspecified
-- repo: mx_21
-  subrepo: main
+- repo: fedora_39
+  subrepo: updates
   srcname: powerline
   binnames:
-    - fonts-powerline
     - powerline
-    - powerline-doc
-    - python3-powerline
+    - powerline-docs
+    - powerline-fonts
+    - vim-powerline
+    - tmux-powerline
   visiblename: powerline
-  version: 2.8.2
-  origversion: 2.8.2-1~mx21+1
-  status: outdated
-  maintainers:
-    - swamprabbit@mxlinux.org
-    - jerome@riseup.net
-    - samueloph@debian.org
+  version: 2.8.4
+  origversion: 2.8.4-1.fc39
+  status: newest
+  summary: The ultimate status-line/prompt utility
+  licenses:
+    - MIT
   categories:
-    - shells
+    - Unspecified
 - repo: fedora_39
   subrepo: release
   srcname: powerline
@@ -481,8 +322,8 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_39
-  subrepo: updates
+- repo: fedora_40
+  subrepo: release
   srcname: powerline
   binnames:
     - powerline
@@ -491,9 +332,9 @@
     - vim-powerline
     - tmux-powerline
   visiblename: powerline
-  version: 2.8.4
-  origversion: 2.8.4-1.fc39
-  status: newest
+  version: 2.8.3
+  origversion: 2.8.3-14.fc40
+  status: legacy
   summary: The ultimate status-line/prompt utility
   licenses:
     - MIT
@@ -517,18 +358,7 @@
     - MIT
   categories:
     - Unspecified
-- repo: nix_stable_25_05
-  srcname: powerline
-  visiblename: powerline
-  version: 2.8.4
-  origversion: null
-  status: newest
-  summary: Ultimate statusline/prompt utility
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
-- repo: fedora_40
+- repo: fedora_41
   subrepo: release
   srcname: powerline
   binnames:
@@ -538,9 +368,9 @@
     - vim-powerline
     - tmux-powerline
   visiblename: powerline
-  version: 2.8.3
-  origversion: 2.8.3-14.fc40
-  status: legacy
+  version: 2.8.4
+  origversion: 2.8.4-1.fc41
+  status: newest
   summary: The ultimate status-line/prompt utility
   licenses:
     - MIT
@@ -558,24 +388,6 @@
   visiblename: powerline
   version: 2.8.4
   origversion: 2.8.4-5.fc41
-  status: newest
-  summary: The ultimate status-line/prompt utility
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_41
-  subrepo: release
-  srcname: powerline
-  binnames:
-    - powerline
-    - powerline-docs
-    - powerline-fonts
-    - vim-powerline
-    - tmux-powerline
-  visiblename: powerline
-  version: 2.8.4
-  origversion: 2.8.4-1.fc41
   status: newest
   summary: The ultimate status-line/prompt utility
   licenses:
@@ -640,6 +452,26 @@
     - MIT
   categories:
     - Unspecified
+- repo: openmandriva_6_0
+  subrepo: main/release
+  srcname: powerline
+  binnames:
+    - powerline
+    - powerline-docs
+    - powerline-fonts
+    - vim-powerline
+    - tmux-powerline
+  visiblename: powerline
+  version: 2.8.4
+  origversion: 2.8.4-1
+  status: newest
+  summary: The ultimate status-line/prompt utility
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: fedora_45
   subrepo: release
   srcname: powerline
@@ -660,17 +492,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: nix_stable_24_05
-  srcname: powerline
-  visiblename: powerline
-  version: 2.8.3
-  origversion: null
-  status: outdated
-  summary: The ultimate statusline/prompt utility
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
 - repo: fedora_rawhide
   subrepo: development
   srcname: powerline
@@ -836,6 +657,167 @@
     - MIT
   categories:
     - System/Base
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: powerline
+  binname: powerline-fonts
+  visiblename: powerline-fonts
+  version: 2.8.4
+  origversion: 2.8.4-4
+  status: newest
+  summary: Patched fonts for powerline
+  licenses:
+    - MIT
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: powerline
+  binname: vim-powerline
+  visiblename: vim-powerline
+  version: 2.8.4
+  origversion: 2.8.4-4
+  status: newest
+  summary: Vim plugin for powerline
+  licenses:
+    - MIT
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: powerline
+  binname: powerline
+  visiblename: powerline
+  version: 2.8.4
+  origversion: 2.8.4-4
+  status: newest
+  summary: Statuslines and prompts for several applications including vim, zsh, bash, tmux, IPython, Awesome, i3 and Qtile
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: powerline
+  binname: vim-powerline
+  visiblename: vim-powerline
+  version: 2.8.4
+  origversion: 2.8.4-4
+  status: newest
+  summary: Vim plugin for powerline
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: powerline
+  binname: powerline
+  visiblename: powerline
+  version: 2.8.4
+  origversion: 2.8.4-4
+  status: newest
+  summary: Statuslines and prompts for several applications including vim, zsh, bash, tmux, IPython, Awesome, i3 and Qtile
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: powerline
+  binname: powerline-fonts
+  visiblename: powerline-fonts
+  version: 2.8.4
+  origversion: 2.8.4-4
+  status: newest
+  summary: Patched fonts for powerline
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: powerline
+  binname: powerline-fonts
+  visiblename: powerline-fonts
+  version: 2.8.4
+  origversion: 2.8.4-4
+  status: newest
+  summary: Patched fonts for powerline
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: powerline
+  binname: powerline
+  visiblename: powerline
+  version: 2.8.4
+  origversion: 2.8.4-4
+  status: newest
+  summary: Statuslines and prompts for several applications including vim, zsh, bash, tmux, IPython, Awesome, i3 and Qtile
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: powerline
+  binname: vim-powerline
+  visiblename: vim-powerline
+  version: 2.8.4
+  origversion: 2.8.4-4
+  status: newest
+  summary: Vim plugin for powerline
+  licenses:
+    - MIT
+- repo: mx_21
+  subrepo: main
+  srcname: powerline
+  binnames:
+    - fonts-powerline
+    - powerline
+    - powerline-doc
+    - python3-powerline
+  visiblename: powerline
+  version: 2.8.2
+  origversion: 2.8.2-1~mx21+1
+  status: outdated
+  maintainers:
+    - swamprabbit@mxlinux.org
+    - jerome@riseup.net
+    - samueloph@debian.org
+  categories:
+    - shells
+- repo: nix_stable_24_05
+  srcname: powerline
+  visiblename: powerline
+  version: 2.8.3
+  origversion: null
+  status: outdated
+  summary: The ultimate statusline/prompt utility
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: powerline
+  visiblename: powerline
+  version: 2.8.4
+  origversion: null
+  status: newest
+  summary: Ultimate statusline/prompt utility
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: powerline
+  visiblename: powerline
+  version: 2.8.4
+  origversion: null
+  status: newest
+  summary: Ultimate statusline/prompt utility
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: powerline
+  visiblename: powerline
+  version: 2.8.4
+  origversion: null
+  status: newest
+  summary: Ultimate statusline/prompt utility
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: powerline
   visiblename: powerline
@@ -869,26 +851,24 @@
   summary: The ultimate statusline/prompt utility - Vim editor binding
   categories:
     - System/Text Tools
-- repo: openmandriva_6_0
-  subrepo: main/release
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: powerline
   binnames:
+    - fonts-powerline
     - powerline
-    - powerline-docs
-    - powerline-fonts
-    - vim-powerline
-    - tmux-powerline
+    - powerline-doc
+    - python3-powerline
   visiblename: powerline
-  version: 2.8.4
-  origversion: 2.8.4-1
-  status: newest
-  summary: The ultimate status-line/prompt utility
+  version: 2.8.3
+  origversion: 2.8.3-4
+  status: outdated
   maintainers:
-    - bero@lindev.ch
-  licenses:
-    - MIT
+    - team+python@tracker.debian.org
+    - jerome@riseup.net
+    - samueloph@debian.org
   categories:
-    - Unspecified
+    - misc
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: powerline
@@ -994,6 +974,28 @@
   origversion: 2.8.4-4
   status: newest
   summary: Statuslines and prompts for several applications including vim, zsh, bash, tmux, IPython, Awesome, i3 and Qtile
+  licenses:
+    - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: powerline
+  binname: powerline-fonts
+  visiblename: powerline-fonts
+  version: 2.8.4
+  origversion: 2.8.4-4
+  status: newest
+  summary: Patched fonts for powerline
+  licenses:
+    - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: powerline
+  binname: vim-powerline
+  visiblename: vim-powerline
+  version: 2.8.4
+  origversion: 2.8.4-4
+  status: newest
+  summary: Vim plugin for powerline
   licenses:
     - MIT
 - repo: pardus_21
@@ -1110,24 +1112,6 @@
     - samueloph@debian.org
   categories:
     - fonts
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: powerline
-  binnames:
-    - fonts-powerline
-    - powerline
-    - powerline-doc
-    - python3-powerline
-  visiblename: powerline
-  version: 2.8.3
-  origversion: 2.8.3-4
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - jerome@riseup.net
-    - samueloph@debian.org
-  categories:
-    - misc
 - repo: raspbian_stable
   subrepo: main
   srcname: powerline
@@ -1332,24 +1316,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_26_04
-  subrepo: resolute-updates/universe
-  srcname: powerline
-  binnames:
-    - fonts-powerline
-    - powerline
-    - powerline-doc
-    - python3-powerline
-  visiblename: powerline
-  version: 2.8.4
-  origversion: 2.8.4-1ubuntu0.1
-  status: newest
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - jerome@riseup.net
-    - samueloph@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_04
   subrepo: resolute/universe
   srcname: powerline
   binnames:
@@ -1363,6 +1329,24 @@
   status: newest
   maintainers:
     - team+python@tracker.debian.org
+    - jerome@riseup.net
+    - samueloph@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute-updates/universe
+  srcname: powerline
+  binnames:
+    - fonts-powerline
+    - powerline
+    - powerline-doc
+    - python3-powerline
+  visiblename: powerline
+  version: 2.8.4
+  origversion: 2.8.4-1ubuntu0.1
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - jerome@riseup.net
     - samueloph@debian.org
   categories:

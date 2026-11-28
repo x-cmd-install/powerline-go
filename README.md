@@ -50,18 +50,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 152 · **Open PRs**: 27 · **Closed issues**: 147 · **Open issues**: 61 · **Commits**: 473
+- **Releases**: 42 · **Merged PRs**: 152 · **Open PRs**: 28 · **Closed issues**: 147 · **Open issues**: 61 · **Commits**: 473
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-28 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-08-29 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last180d | 2026-05-31 | 0 | 0 | 4 | 2 | 0 | 3 |
-| 360d | 2025-12-02 | 1 | 1 | 9 | 3 | 2 | 4 |
-| last720d | 2024-12-07 | 1 | 7 | 16 | 5 | 5 | 22 |
+| 30d | 2026-10-29 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-29 | 0 | 0 | 2 | 0 | 0 | 0 |
+| 90d | 2026-08-30 | 0 | 0 | 4 | 0 | 0 | 0 |
+| last180d | 2026-06-01 | 0 | 0 | 5 | 2 | 0 | 3 |
+| 360d | 2025-12-03 | 1 | 1 | 10 | 3 | 2 | 4 |
+| last720d | 2024-12-08 | 1 | 7 | 17 | 5 | 5 | 22 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for powerline-go lives in the [x-cmd/install](https://github.co
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T08:48:16Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T07:57:33Z._
